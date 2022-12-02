@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <title>Kako Tag</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="Icon.png">
+    <link rel="stylesheet" href="overview_style.css">
+   
+  </head>
+  <body>
+    <script src="index.js" defer ></script>
+    <div class ="site">
+        <h1>Willkommen!</h1>
+        
+        <div class="milk">
+        
+            <br><br>
+            <form id="oat">
+                <img  src= "Images/oat_milk.jpg">
+                <h4 name="Haver">Haver</h4>
+                <p>Ein etwas getreidiger, teils nussiger Geschmack
+
+                    Hafer ist am ähnlichsten zur Kuhmilch. Es besitzt von Natur aus eine natürliche Süße und hat wenig Fett.</p>
+             
+                    <br>
+                <button class="likebutton" name="Haver" role="button" type ="button" onclick="get_liked_element('Haver')">&#9829</button>
+
+                
+            </form>
+            
+            <form id="cow">
+                <img src="Images/cow_milk.jpg">
+                <h4 name="Milch">Milch</h4>
+                <p>Unsere gute alte Kuhmilch passt perfekt zum Kako. Sie ist fettig und bindet das Kakopulver perfekt.</p>
+                <br>
+                <button class="likebutton" name="Milch"role="button" type ="button" onclick="get_liked_element('Milch')">&#9829</button>
+                
+            </form>
+            <form id="soya">
+                <img src="Images/soja_milk.jpg">
+                <h4 name="Soja">Soja</h4>
+                <p>Ein etwas getreidiger, teils nussiger Geschmack</p>
+                <br>
+                <button class="likebutton" name="Soja" role="button" type ="button" onclick="get_liked_element('Soja')">&#9829</button>
+               
+
+            </form>
+
+        </div>
+        <br>
+        <hr>
+        <br>
+
+        
+     
+
+        <div class="add_ons">
+            <form id="drink_choclate_caramel" style="align-self: flex-start">
+                <img src="Images/caramell.jpg">
+                <h4 name="Trinkschoki Karamel">Trinkschoki Karamel</h4>
+                <p>Da schmilzt du direkt mit der Schokoladen-Karamell-Mischung mit</p>
+                
+                <button class="likebutton" name="Trinkschoki Karamel"role="button"  type ="button" onclick="get_liked_element('Trinkschoki Karamel')">&#9829</button>
+
+                
+            </form>
+            
+            <form id="drink_choclate_full">
+                <img src="Images/chocolate.jpg">
+                <h4 name="Trinkschoki Vollmilch">Trinkschoki Vollmilch</h4>
+                <p>Die klassische Schokolade zum dahin schmelzen </p>
+                
+                <button class="likebutton"  name="Trinkschoki Vollmilch" role="button"  type ="button" onclick="get_liked_element('Trinkschoki Vollmilch')">&#9829</button>
+              
+            </form>
+            <form id="mini_marshmallows">
+                <img src="Images/mini_marshmallow.jpg">
+                <h4 name="Mini-Marshmallows">Mini-Marshmallows</h4>
+                <p>Zerlegen sich genüßlich in deinem Kako und bilden  oben eine süße, cremige Schicht </p>
+                
+                <button class="likebutton"  name="Mini-Marshmallows" role="button"  type ="button" onclick="get_liked_element('Mini-Marshmallows')" >&#9829</button>
+
+            </form>
+            <br>
+            <form id="max_marshmallows" style="align-self: flex-end"  >
+                <img src="Images/marshmallow.jpg">
+                <h4 name="Marshmallow Spieß">Marshmallow Spieß</h4>
+                <p>Beim Eintunken in den Kako kannst du die Konsistenz des Marshmallows selber kontrollieren, der ein bisschen weicher und wärmer wird. Dann beißt  du direkt in Marshmallow rein.</p>
+                <br>
+                <button class="likebutton" name="Marshmallow Spieß" role="button" type ="button" onclick="get_liked_element('Marshmallow Spieß')">&#9829</button>
+
+                 
+            </form>
+            <form id="cinamon">
+                <img src="Images/cinnamon.jpg">
+                <h4 name="Zimt">Zimt</h4>
+                <p>Das geruchsintensive Gewürz verleiht dir weihnachtliche Stimmung im Dezember</p>
+                <br>
+                <button class="likebutton"  name="Zimt" role="button" type ="button" onclick="get_liked_element('Zimt')">&#9829</button>
+
+               
+            </form>
+            <br>
+            <form id="cream">
+                <img src="Images/cream.jpg">
+                <h4 name="Sahne">Sahne</h4>
+                <p>Dieses süß, fettige Milchprodukt vermischt sich mit deinem Kako und verleiht deinem Getränk das Extra an Fett</p>
+                <br>
+               <button class="likebutton" name="Sahne" role="button" type ="button" onclick="get_liked_element('Sahne')">&#9829</button>
+
+            </form>
+            <form id="sprinkles">
+                <img src="Images/sprinkles.jpg">
+                <h4 name="Streusel"> Streusel</h4>
+                <p>Für die extra bunte Süße auf deinem schokoladigen Getränk</p>
+                <br>
+                <button class="likebutton"  name="Streusel" role="button" type ="button" onclick="get_liked_element('Streusel')">&#9829</button>
+
+               
+                
+            </form>
+            
+        </div>
+        <br>
+        <hr>
+
+        <br>
+
+        <div class="varaints">
+            <form id="normal">
+                <img src="Images/normal.jpg">
+                <h4 name="Normaler Kako">Normaler Kako</h4>
+                <p>Der Klassiker, der uns heute alle an einem Tisch hier, am internationalen Kako-Tag vereint hat, der mittlerweile zu unserem SAP-Mindset gehört.</p>
+                <br>
+               <button class="likebutton" name="Normaler Kako" role="button" type ="button" onclick="get_liked_element('Normaler Kako')">&#9829</button>
+
+               
+                
+            </form>
+            <form id="spicy_choclate">
+                <img src="Images/spicy_hot.jpg">
+                <h4 name="Spicy hot Chocolate">Spicy hot Chocolate</h4>
+                <p>Jetzt wird der heiße Kako noch heißer</p>
+                <button class="likebutton" name="Spicy hot Chocolate" role="button" type ="button" onclick="get_liked_element('Spicy hot Chocolate')"  >&#9829</button>
+
+               
+                
+            </form>
+            <form id="rum">
+                <img src="Images/rum.jpg">
+                <h4 name="rum">Kako mit Rum</h4>
+                <p>Bei diesem Kako wirst du noch lustiger und krigst noch bessere Laune. Ein bisschen Schuss ist ein Muss. Rum zum angnehemen Alkoholkonsum</p>
+                <br>
+                <button class="likebutton"  name="Kako mit Rum" role="button" type ="button" onclick="get_liked_element('Kako mit Rum')" >&#9829</button>
+
+               
+            </form>
+           
+                
+            </form>
+            <form id="spices">
+                <img src="Images/spices.jpg">
+                <h4 name="Gewürzkako">Gewürzkako</h4>
+                <p>Verschiedene Gewürze erzeugen ein mit nichts vergleichbarem Erlebnis auf deiner Zunge. Der Ingwer gibt die Schärfe in dein heißes Getränk und der Zimt und der Kardamom eine Note von Weihnachten.</p>
+                <br>
+                <button class="likebutton" role="button" type ="button" name="Gewürzkako" onclick="get_liked_element('Gewürzkako')" >&#9829</button>
+
+               
+                
+            </form>
+            <form id="sirup">
+                <img src= "Images/sirup.jpg">
+                <h4 name="Kako mit Sirup">Kako mit Sirup</h4>
+                <p>Die … Süße beschert dir eine einzigartige Geschmacksmischung </p>
+                <br>
+                <button  name="Kako mit Sirup" class="likebutton" role="button" type ="button" onclick="get_liked_element('Kako mit Sirup')">&#9829</button>
+
+               
+            </form>
+            <form id="ice">
+                <img src="Images/ice.jpg">
+                <h4 name="Iced Kako">Iced Kako</h4>
+                <p>Das kalte, eisige Gebräu zur kalten und eisigen Jahreszeit</p>
+                <br><button class="likebutton"  name="Iced Kako" role="button" type ="button" onclick="get_liked_element('Iced Kako')" >&#9829</button>
+
+               
+            </form>
+            <br><br>
+            <form id="banana_choc_milk">
+                <img src="Images/banana.jpg">
+                <h4  name="Bananen Schokomilch">Bananen Schokomilch</h4>
+                <p>Zumindest ein wenig Vitamine bei diesem Diabetisabend</p>
+               <button class="likebutton" name="Bananen Schokomilch" role="button" type ="button" onclick="get_liked_element('Bananen Schokomilch')">&#9829</button>
+
+               
+            </form>
+            <form id="marshmallow_choc">
+                <img src="Images/marshmallow_kako.jpg">
+                <h4 name="Marshmallow Schokolade">Marshmallow Schokolade</h4>
+                <p>Die geschmolzene Zuckerwattenmischung bildet eine süße, weiche und zähe Mischung mit der Milch.</p>
+                <button class="likebutton" name="Marshmallow Schokolade" role="button" type ="button" onclick="get_liked_element('Marshmallow Schokolade')">&#9829</button>
+
+               
+            </form>
+        </div>
+        <br><hr>
+
+        <br><br>
+
+        <div class="food">
+            <form id="cake">
+                <img src="">
+                <h4>Kuchen</h4>
+                <p></p>
+                
+                
+            </form>
+            <form id="sweets">
+                <img src="">
+                <h4>Süßigkeiten</h4>
+                <p></p>
+                
+            </form>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

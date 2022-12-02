@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "dynamic": "^4.2.2",
+    "gsap": "^3.11.3",
+    "next": "^13.0.5",
+    "require": "^2.4.20"
+  }
+}
